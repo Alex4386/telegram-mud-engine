@@ -1,0 +1,99 @@
+{
+  "start": {
+    "type": "selection",
+    "message": "당신은 선택받은 용사입니다.\n세계는 위험에 쳐해있고\n오직 당신만이 세계를 구할 수 있습니다.\n당신은 어떻게 하시겠습니까?",
+    "options": [
+      {
+        "name": "어차피 망할세계 내손으로 부순다",
+        "to": "break_the_world"
+      },
+      {
+        "name": "방구석에 쳐박힌다",
+        "to": "bangkok"
+      },
+      {
+        "name": "사과나무를 심는다",
+        "to": "plant_apple_tree"
+      }
+    ]
+  },
+  "break_the_world": {
+    "type": "info",
+    "message": "세계는 멸망했다.",
+    "options": [
+      {
+        "name": "다시 처음으로",
+        "to": "start"
+      }
+    ]
+  },
+  "plant_apple_tree": {
+    "type": "info",
+    "message": "사과나무를 심자 세계는 멸망했다.",
+    "options": [
+      {
+        "name": "다시 처음으로",
+        "to": "start"
+      }
+    ]
+  },
+  "bangkok": {
+    "type": "selection",
+    "message": "방구석에 쳐박혀서 유튜브를 하던도중\n투보형이 스키장에 가자합니다",
+    "options": [
+      {
+        "name": "간다",
+        "to": "go_to_ski"
+      },
+      {
+        "name": "안오면 악녀가 집에 찾아온다 협박해서 간다",
+        "to": "go_to_ski"
+      },
+      {
+        "name": "어쩔수 없이 간다",
+        "to": "go_to_ski"
+      }
+    ]
+  },
+  "go_to_ski": {
+    "type": "selection",
+    "message": "아칼리 마스크를 쓴놈이 여자화장실로 들어가고 있습니다.\n어떻게 하시겠습니까?\n남자같긴한데 증거는 없습니다.",
+    "options": [
+      {
+        "name": "막는다",
+        "to": "block"
+      },
+      {
+        "name": "따라가서 진짜 저새끼가 화장실가나 본다",
+        "to": "police"
+      },
+      {
+        "name": "같이 따라 들어간다",
+        "to": "police"
+      }
+    ]
+  },
+  "block": {
+    "type": "info",
+    "message": "아칼리마스크를 쓴 놈이 당신을 들이 박았습니다.",
+    "options": [
+      {
+        "name": "맨 처음으로",
+        "to": "start"
+      }
+    ]
+  },
+  "police": {
+    "type": "info",
+    "message": "당신은 경찰에 붙잡혔습니다.",
+    "embed": {
+      "photo": "AgACAgUAAxkBAANEXlb3jDBT301AspX3sbnMdCnheE4AAjOpMRuZVLhW1tbIWUQ1OY4cNhszAAQBAAMCAAN4AANpfAQAARgE"
+    },
+    "options": [
+      {
+        "name": "맨 처음으로",
+        "to": "start"
+      }
+    ]
+  }
+}

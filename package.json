@@ -1,0 +1,17 @@
+{
+  "name": "telegram-mud-engine",
+  "version": "0.0.1",
+  "description": "MUD Game Engine for Telegram BOT",
+  "main": "dist/",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.7.6"
+  },
+  "dependencies": {
+    "telegraf": "^3.36.0",
+    "typescript": "^3.8.2"
+  },
+  "scripts": {
+    "start": "tsc && node dist/"
+  }
+}
