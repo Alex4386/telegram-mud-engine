@@ -1,6 +1,7 @@
 # Telegram MUD Engine
 MUD/TRPG 게임을 Telegram을 통해 할 수 있습니다.  
-![akalibreak](https://user-images.githubusercontent.com/27724108/75397392-0bd97f80-593a-11ea-9352-d3936d246bce.png)
+  
+![akalibreak](https://user-images.githubusercontent.com/27724108/75397507-5fe46400-593a-11ea-887a-82bb8511e623.jpeg)
 
 ## MUD 게임이 뭐죠?
 이 [영상](https://youtu.be/4vypQ23slXc)을 참고하세요.  
