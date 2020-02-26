@@ -1,5 +1,6 @@
 # Telegram MUD Engine
 MUD/TRPG 게임을 Telegram을 통해 할 수 있습니다.  
+![babababo](https://user-images.githubusercontent.com/27724108/75397159-9077ce00-5939-11ea-8809-0c176a1158a5.png)  
 
 ## MUD 게임이 뭐죠?
 이 [영상](https://youtu.be/4vypQ23slXc)을 참고하세요.  
@@ -27,7 +28,7 @@ game.json 을 수정하여 JSON 형태의 스크립트를 수정하면 MUD/TRPG 
         "to": "police"
       }
     ]
-  }, ...
+  },
 }
 ```
 (c) Ryueumi, All rights reserved.

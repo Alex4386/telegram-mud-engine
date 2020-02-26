@@ -30,7 +30,7 @@ app.start((ctx) => {
   ctx.reply(startGame.message, Extra.markup(
     Markup.keyboard(
       [keyboard],
-      { columns: keyboard.length }
+      //{ columns: keyboard.length }
     )
   ))
 });
